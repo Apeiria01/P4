@@ -57,6 +57,9 @@ Because of these limitations, the current UE plugin does not show the high sorti
 
 Given the current findings, I expect the scope of the project to shift. Instead of directly evaluating MobileGS on top of the existing Niagara-based UE plugin, the next stage will likely focus on building a **more faithful 3DGS rendering pipeline** in the mobile UE context using a more appropriate rendering abstraction and compute shaders driven rendering. With such a pipeline, the project could then compare the performance of **tile-based 3DGS**, **non-tile-based hardware-rasterized rendering**, and **MobileGS-style optimizations** more meaningfully.
 
+#### Video
+(placed 2 3DGS object with 360k GS points to test performance, while current implement won't handle multiple 3DGS object's occlusion correctly since correct occlusion requires globaling sorting while Niagara objects doesn't share buffer)
+https://youtu.be/d36EueXUPNM
 
 
 ## References 
