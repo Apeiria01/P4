@@ -1,0 +1,3 @@
+[submodule "GaussianSplattingForUnrealEngine"]
+	path = GaussianSplattingForUnrealEngine
+	url = https://github.com/Apeiria01/GaussianSplattingForUnrealEngine
