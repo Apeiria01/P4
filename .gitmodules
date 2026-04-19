@@ -4,3 +4,12 @@
 [submodule "NanoGaussianSplatting"]
 	path = NanoGaussianSplatting
 	url = https://github.com/Apeiria01/NanoGaussianSplatting
+[submodule "Mobile-GS"]
+	path = Mobile-GS
+	url = https://github.com/Apeiria01/Mobile-GS
+[submodule "CudaRasterizer"]
+	path = CudaRasterizer
+	url = https://github.com/Apeiria01/CudaRasterizer
+[submodule "SIBR_viewers"]
+	path = SIBR_viewers
+	url = https://github.com/Apeiria01/SIBR_viewers
