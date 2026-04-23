@@ -57,7 +57,7 @@ For MobileGS data, run `python export_mlp_weights.py [opacity_phi_nn.pt path]` t
 
 For SIBR_viewers: Clone [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) recursively. Configure Cmake for gaussian-splatting/SIBR_viewers, replace SIBR_viewers/extlibs/CudaRasterizer with [CudaRasterizer](https://github.com/Apeiria01/CudaRasterize)
 
-For APK archive: Run `Install_GSPrac2-arm64.bat` with AndroidSDK Platform-tools in env to install the APK for a simple 3DGS in AR context demo.
+For APK archive: Run `Install_GSPrac2-arm64.bat` with AndroidSDK Platform-tools in env to install the APK for a simple 3DGS or Mobile-GS in AR context demo. For Mobile-GS app, tap the screen with 4 fingers and run `GaussianSplat.UseOIT 1` to switch to Mobile-GS rendering
 
 
 ### 4) Metrics and Results
